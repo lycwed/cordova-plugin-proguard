@@ -1,3 +1,6 @@
+## [1.0.6]
+- Update keep class
+
 ## [1.0.5]
 - Update keep class
 
