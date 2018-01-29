@@ -28,9 +28,19 @@
     public static final ** CREATOR;
 }
 
+-keep class org.chromium.** { *; }
+
 # To prevent admob mediation issues
 # https://groups.google.com/d/msg/google-admob-ads-sdk/iOTBcFmVO4I/AsNxhOKqCAAJ
 
 -keep class com.google.ads.mediation.admob.AdMobAdapter { *; }
 -keep class com.google.ads.mediation.AdUrlAdapter { *; }
--keep class com.google.ads.**
+-keep class com.google.ads.** { *; }
+
+-keep class com.inmobi.** { *; }
+-keep class com.adcolony.sdk.** { *; }
+-keep class com.chartboost.sdk.** { *; }
+-keep class com.facebook.ads.** { *; }
+-keep class com.squareup.picasso.** { *; }
+-keep class com.moat.analytics.** { *; }
+-keep class com.integralads.avid.library.adcolony.** { *; }

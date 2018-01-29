@@ -1,3 +1,6 @@
+## [1.0.3]
+- Add mediation, crosswalk, chromium
+
 ## [1.0.2]
 - Remove all keep only proguard for mediation
 
