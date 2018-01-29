@@ -1,3 +1,6 @@
+## [1.0.7]
+- Add dontwarn and dontnote
+
 ## [1.0.6]
 - Update keep class
 

@@ -29,19 +29,28 @@
 }
 
 -keep class org.chromium.**
+-dontnote org.chromium.**
 
 # To prevent admob mediation issues
+-keep public class com.google.ads.mediation.admob.AdMobAdapter { public *; }
+-keep public class com.google.ads.mediation.AdUrlAdapter { public *; }
 
--keep class com.google.ads.mediation.admob.AdMobAdapter { *; }
--keep class com.google.ads.mediation.AdUrlAdapter { *; }
--keep class com.google.android.gms.plus.PlusShare { *; }
--keep class com.google.android.gms.ads.mediation.MediationNativeAdapter { *; }
--keep class com.google.ads.mediation.facebook.** { *; }
--keep class com.google.ads.mediation.inmobi.** { *; }
--keep class com.inmobi.rendering.** { *; }
--keep class com.squareup.okhttp.** { *; }
+-keep public class com.google.android.gms.* { public *; }
+-dontwarn com.google.android.gms.**
+-dontnote com.google.android.gms.**
+-dontnote com.google.android.exoplayer2.**
 
--keep class com.google.android.gms.**
--keep class com.google.ads.**
--keep class com.inmobi.**
--keep class com.squareup.**
+-dontnote android.net.http.**
+-dontnote android.app.**
+
+-keep public class com.google.ads.* { public *; }
+-dontwarn com.google.ads.**
+
+-keep public class com.inmobi.* { public *; }
+-dontwarn com.google.ads.**
+
+-keep public class com.squareup.* { public *; }
+-dontwarn com.squareup.**
+
+-dontnote org.apache.http.**
+-dontnote com.onesignal.**
