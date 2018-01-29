@@ -1,4 +1,4 @@
-# cordova-plugin-proguard
+# lycwed-cordova-plugin-proguard
 
 [![NPM version][npm-image]][npm-url]
 
@@ -13,11 +13,11 @@ You can read more about it on [ProGuard official website](https://www.guardsquar
 ## How to use
 
 - If you already have installed [Android Studio](https://developer.android.com/studio/index.html) then seems you already have installed ProGuard on your machine. If no, then  you should download and install it manually from [ProGuard official website](https://www.guardsquare.com/en/proguard).
-- ```cordova plugin add cordova-plugin-proguard``` - this command will configure your `build.gradle` file and copy `proguard-custom.txt` to `${androidPlatformDirectory}/assets/www/proguard-custom.txt`
+- ```cordova plugin add lycwed-cordova-plugin-proguard``` - this command will configure your `build.gradle` file and copy `proguard-custom.txt` to `${androidPlatformDirectory}/assets/www/proguard-custom.txt`
 
 ## Customization
 
-`proguard-custom.txt` file contains some basic rules for your cordova mobile app. Feel free to [fork this repo](https://github.com/greybax/cordova-plugin-proguard/fork) and modify it as you want. 
+`proguard-custom.txt` file contains some basic rules for your cordova mobile app. Feel free to [fork this repo](https://github.com/lycwed/lycwed-cordova-plugin-proguard/fork) and modify it as you want.
 
 You can also to check out some [Android ProGuard snippets](https://github.com/krschultz/android-proguard-snippets)
 
@@ -25,5 +25,5 @@ You can also to check out some [Android ProGuard snippets](https://github.com/kr
 
 MIT © [Aleksandr Filatov](https://alfilatov.com)
 
-[npm-url]: https://npmjs.org/package/cordova-plugin-proguard
+[npm-url]: https://npmjs.org/package/lycwed-cordova-plugin-proguard
 [npm-image]: https://img.shields.io/npm/v/cordova-plugin-proguard.svg

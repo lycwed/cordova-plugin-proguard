@@ -1,10 +1,10 @@
 {
-  "name": "cordova-plugin-proguard",
+  "name": "lycwed-cordova-plugin-proguard",
   "version": "1.0.0",
-  "description": "Cordova plugin for ProGuard",
+  "description": "Cordova plugin for ProGuard - improved for admob mediations",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/greybax/cordova-plugin-proguard.git"
+    "url": "git+https://github.com/lycwed/lycwed-cordova-plugin-proguard.git"
   },
   "keywords": [
     "proguard",
@@ -15,7 +15,9 @@
     "obfuscate",
     "tool",
     "cordova",
-    "plugin"
+    "plugin",
+    "admob",
+    "mediation"
   ],
   "author": {
     "name": "Aleksandr Filatov",
@@ -24,7 +26,7 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/greybax/cordova-plugin-proguard/issues"
+    "url": "https://github.com/lycwed/lycwed-cordova-plugin-proguard/issues"
   },
-  "homepage": "https://github.com/greybax/cordova-plugin-proguard#readme"
+  "homepage": "https://github.com/lycwed/lycwed-cordova-plugin-proguard#readme"
 }
