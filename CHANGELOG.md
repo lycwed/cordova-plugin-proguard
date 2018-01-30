@@ -1,3 +1,6 @@
+## [1.0.12]
+- Add some other fixes: https://github.com/mtransitapps/mtransit-for-android/blob/master/proguard-project.txt
+
 ## [1.0.11]
 - Add fix for picasso, crosswalk, facebook
 
