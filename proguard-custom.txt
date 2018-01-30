@@ -9,8 +9,11 @@
 # For more details, see
 #   http://developer.android.com/guide/developing/tools/proguard.html
 
+-keep class org.apache.cordova.** { *; }
+-keep public class * extends org.apache.cordova.CordovaPlugin
+
+
 # To prevent admob mediation issues
-# https://github.com/floatinghotpot/cordova-admob-pro/wiki/Notice-for-Android-Proguard
 -keep class * extends java.util.ListResourceBundle {
     protected Object[][] getContents();
 }
@@ -28,35 +31,4 @@
     public static final ** CREATOR;
 }
 
--keep class org.chromium.**
--dontwarn org.chromium.**
--dontnote org.chromium.**
-
--dontnote org.apache.cordova.**
-
-# To prevent admob mediation issues
--keep public class com.google.ads.mediation.admob.AdMobAdapter { public *; }
--keep public class com.google.ads.mediation.AdUrlAdapter { public *; }
-
--keep public class com.google.android.gms.* { public *; }
--dontwarn com.google.android.gms.**
--dontnote com.google.android.gms.**
--dontnote com.google.android.exoplayer2.**
-
--dontnote android.net.http.**
--dontnote android.app.**
-
--keep public class com.google.ads.* { public *; }
--dontwarn com.google.ads.**
-
--keep public class com.inmobi.* { public *; }
--dontwarn com.google.ads.**
-
--keep public class com.squareup.* { public *; }
--dontwarn com.squareup.**
-
--dontnote org.apache.http.**
--dontnote com.onesignal.**
-
--dontnote com.facebook.ads.**
--dontnote com.inmobi.signals.**
+-keep class com.google.ads.**

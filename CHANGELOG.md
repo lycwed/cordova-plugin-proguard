@@ -1,3 +1,6 @@
+## [1.0.9]
+- Working on mediation proguard problem for adnroid 4.4
+
 ## [1.0.8]
 - Add dontwarn and dontnote to chromium, fb ads and inmobi
 
