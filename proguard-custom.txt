@@ -12,6 +12,11 @@
 -keep class org.apache.cordova.** { *; }
 -keep public class * extends org.apache.cordova.CordovaPlugin
 
+-dontwarn org.xwalk.core.**
+-keep class org.xwalk.core.**{*;}
+-dontwarn org.chromium.**
+-keep class org.chromium.**{*;}
+-keepattributes **
 
 # To prevent admob mediation issues
 -keep class * extends java.util.ListResourceBundle {
@@ -32,3 +37,11 @@
 }
 
 -keep class com.google.ads.**
+-keep class android.support.v7.widget.SearchView { *; }
+
+-dontwarn okio.**
+-dontwarn javax.annotation.Nullable
+-dontwarn javax.annotation.ParametersAreNonnullByDefault
+
+-keep class com.facebook.ads.** { *; }
+-dontwarn com.facebook.ads.**

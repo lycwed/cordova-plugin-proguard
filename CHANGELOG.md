@@ -1,3 +1,6 @@
+## [1.0.11]
+- Add fix for picasso, crosswalk, facebook
+
 ## [1.0.10]
 - Add com.google.android.gms:play-services-plus
 
