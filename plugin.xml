@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<plugin id="lycwed-cordova-plugin-proguard" version="1.0.9"
+<plugin id="lycwed-cordova-plugin-proguard" version="1.0.10"
     xmlns="http://apache.org/cordova/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
@@ -12,6 +12,8 @@
 
     <platform name="android">
         <framework src="build.gradle" custom="true" type="gradleReference" />
+        <framework src="com.google.android.gms:play-services-plus:+" />
+
         <asset src="proguard-custom.txt" target="proguard-custom.txt" />
     </platform>
 </plugin>

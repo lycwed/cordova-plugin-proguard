@@ -1,3 +1,6 @@
+## [1.0.10]
+- Add com.google.android.gms:play-services-plus
+
 ## [1.0.9]
 - Working on mediation proguard problem for adnroid 4.4
 
