@@ -1,3 +1,6 @@
+## [1.0.8]
+- Add dontwarn and dontnote to chromium, fb ads and inmobi
+
 ## [1.0.7]
 - Add dontwarn and dontnote
 

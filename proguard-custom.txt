@@ -29,7 +29,10 @@
 }
 
 -keep class org.chromium.**
+-dontwarn org.chromium.**
 -dontnote org.chromium.**
+
+-dontnote org.apache.cordova.**
 
 # To prevent admob mediation issues
 -keep public class com.google.ads.mediation.admob.AdMobAdapter { public *; }
@@ -54,3 +57,6 @@
 
 -dontnote org.apache.http.**
 -dontnote com.onesignal.**
+
+-dontnote com.facebook.ads.**
+-dontnote com.inmobi.signals.**
