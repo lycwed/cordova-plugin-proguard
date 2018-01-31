@@ -1,3 +1,6 @@
+## [1.0.21]
+- Remove multidexEnabled
+
 ## [1.0.20]
 - Fixed bug with keepattributes *Annotation*
 

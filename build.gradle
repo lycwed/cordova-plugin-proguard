@@ -3,7 +3,6 @@ android {
     debug {
       minifyEnabled true
       shrinkResources false
-      multiDexEnabled false
       pseudoLocalesEnabled false
       zipAlignEnabled true
       proguardFiles getDefaultProguardFile('proguard-android.txt'), 'assets/www/proguard-custom.txt'
@@ -11,7 +10,6 @@ android {
     release {
       minifyEnabled true
       shrinkResources false
-      multiDexEnabled false
       pseudoLocalesEnabled false
       zipAlignEnabled true
       proguardFiles getDefaultProguardFile('proguard-android.txt'), 'assets/www/proguard-custom.txt'
