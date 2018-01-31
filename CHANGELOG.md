@@ -1,3 +1,6 @@
+## [1.0.19]
+- Improve build.gradle
+
 ## [1.0.18]
 - Remove shrink resources
 

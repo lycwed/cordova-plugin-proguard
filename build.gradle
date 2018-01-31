@@ -2,20 +2,16 @@ android {
   buildTypes {
     debug {
       minifyEnabled true
-      useProguard false
-      debuggable true
-      jniDebuggable true
-      renderscriptDebuggable true
+      shrinkResources false
+      multiDexEnabled false
       pseudoLocalesEnabled false
       zipAlignEnabled true
       proguardFiles getDefaultProguardFile('proguard-android.txt'), 'assets/www/proguard-custom.txt'
     }
     release {
       minifyEnabled true
-      useProguard true
-      debuggable false
-      jniDebuggable false
-      renderscriptDebuggable false
+      shrinkResources false
+      multiDexEnabled false
       pseudoLocalesEnabled false
       zipAlignEnabled true
       proguardFiles getDefaultProguardFile('proguard-android.txt'), 'assets/www/proguard-custom.txt'
