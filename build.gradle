@@ -1,12 +1,9 @@
 android {
-  defaultConfig {
-      resConfigs "en", "el"
-  }
   buildTypes {
     debug {
       shrinkResources true
       minifyEnabled true
-      useProguard true
+      useProguard false
       debuggable true
       jniDebuggable true
       renderscriptDebuggable true
@@ -25,5 +22,9 @@ android {
       zipAlignEnabled true
       proguardFiles getDefaultProguardFile('proguard-android.txt'), 'assets/www/proguard-custom.txt'
     }
+  }
+  lintOptions {
+    abortOnError false;
+    disable 'MissingTranslation'
   }
 }

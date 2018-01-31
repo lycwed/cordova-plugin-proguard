@@ -137,7 +137,6 @@
 -keep class com.google.ads.**
 -keep class android.support.v7.widget.SearchView { *; }
 -dontwarn com.squareup.okhttp.**
--dontwarn com.squareup.picasso.**
 
 -dontwarn okio.**
 -dontwarn javax.annotation.Nullable
