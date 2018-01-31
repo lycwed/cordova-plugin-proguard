@@ -1,3 +1,6 @@
+## [1.0.14]
+- Improve proguard file and build.gradle
+
 ## [1.0.13]
 - Add some dontwarn for com.squareup and com.google.ads.mediation
 

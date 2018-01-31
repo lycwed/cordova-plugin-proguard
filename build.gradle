@@ -1,8 +1,18 @@
 android {
+  defaultConfig {
+      resConfigs "en", "el"
+  }
   buildTypes {
     debug {
       minifyEnabled true
+      useProguard true
       proguardFiles getDefaultProguardFile('proguard-android.txt'), 'assets/www/proguard-custom.txt'
+
+      debuggable false
+      jniDebuggable false
+      renderscriptDebuggable false
+      pseudoLocalesEnabled false
+      zipAlignEnabled true
     }
     release {
       minifyEnabled true
@@ -10,4 +20,3 @@ android {
     }
   }
 }
-
