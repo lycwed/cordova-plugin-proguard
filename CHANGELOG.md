@@ -1,3 +1,6 @@
+## [1.0.18]
+- Remove shrink resources
+
 ## [1.0.17]
 - Improve proguard file and build.gradle
 
