@@ -1,3 +1,6 @@
+## [1.0.17]
+- Improve proguard file and build.gradle
+
 ## [1.0.16]
 - Improve proguard file and build.gradle
 
