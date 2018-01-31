@@ -1,3 +1,6 @@
+## [1.0.13]
+- Add some dontwarn for com.squareup and com.google.ads.mediation
+
 ## [1.0.12]
 - Add some other fixes: https://github.com/mtransitapps/mtransit-for-android/blob/master/proguard-project.txt
 
