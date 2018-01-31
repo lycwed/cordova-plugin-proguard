@@ -25,22 +25,11 @@
 #-injars      libs
 #-outjars     bin/classes-processed.jar
 
-# Specifies to write out some more information during processing.
-# If the program terminates with an exception, this option will print out the entire stack trace, instead of just the exception message.
--
-
-# Annotations are represented by attributes that have no direct effect on the execution of the code.
--keepattributes *Annotation*
-
 -keepattributes InnerClasses
 -keep class **.R
 -keep class **.R$* {
     <fields>;
 }
-
-# These options let obfuscated applications or libraries produce stack traces that can still be deciphered later on
-
-
 
 # Enable proguard with Cordova
 -keep class org.apache.cordova.** { *; }
@@ -78,7 +67,7 @@
 -dontwarn net.sqlcipher.**
 
 -keep class org.codehaus.** { *; }
--keepattributes *Annotation*,EnclosingMethod
+-keepattributes *Annotation*, EnclosingMethod
 
 -keepclassmembers enum * {
     public static **[] values();

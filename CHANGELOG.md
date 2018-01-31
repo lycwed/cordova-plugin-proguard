@@ -1,3 +1,6 @@
+## [1.0.20]
+- Fixed bug with keepattributes *Annotation*
+
 ## [1.0.19]
 - Improve build.gradle
 
