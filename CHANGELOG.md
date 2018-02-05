@@ -1,3 +1,6 @@
+## [1.0.22]
+- Add vungle proguard conf
+
 ## [1.0.21]
 - Remove multidexEnabled
 
