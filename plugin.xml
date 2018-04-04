@@ -1,19 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<plugin id="lycwed-cordova-plugin-proguard" version="1.0.22"
-    xmlns="http://apache.org/cordova/ns/plugins/1.0"
+<plugin id="lycwed-cordova-plugin-proguard" version="1.0.23" 
+    xmlns="http://apache.org/cordova/ns/plugins/1.0" 
     xmlns:android="http://schemas.android.com/apk/res/android">
-
     <name>lycwed-cordova-plugin-proguard</name>
     <description>Cordova plugin for ProGuard - improved for admob mediations</description>
-
     <engines>
         <engine name="cordova" version=">=3.0.0" />
     </engines>
-
     <platform name="android">
         <framework src="build.gradle" custom="true" type="gradleReference" />
         <framework src="com.google.android.gms:play-services-plus:+" />
-
         <asset src="proguard-custom.txt" target="proguard-custom.txt" />
     </platform>
 </plugin>

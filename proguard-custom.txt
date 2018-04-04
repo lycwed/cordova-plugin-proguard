@@ -201,6 +201,7 @@
 -dontwarn com.google.ads.mediation.facebook.**
 -dontwarn com.google.ads.mediation.inmobi.**
 -dontwarn com.facebook.ads.internal.**
+-dontwarn com.facebook.internal.**
 # FACEBOOK AUDIENCE NETWORK - END
 
 # GOOGLE ANALYTICS - START
