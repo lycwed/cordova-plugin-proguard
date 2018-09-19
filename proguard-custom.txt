@@ -140,7 +140,13 @@
 }
 # SUPPORT V7 APPCOMPAT - END
 
+# FIREBASE MESSAGING
+-dontwarn com.google.firebase.messaging.**
+
 # GOOGLE PLAY SERVICES - START
+-keep public class com.google.android.gms.* { public *; }
+-dontwarn com.google.android.gms.**
+
 -keep class * extends java.util.ListResourceBundle {
     protected java.lang.Object[][] getContents();
 }
